@@ -8,18 +8,18 @@
 _Replace anything surrounded by the `< >` symbols._
 
 ## SUMMARY:
- < Provide a short description of your program's functionality. No more than a couple sentences. >
+In part A, my code has turtle races where the first one consists of a single call forward for each turtle using random values. The second race uses a loop to move the turtles forward using random values from a range. In part B, I used my orange turtle to draw 5 regular polygons using a for loop that uses the calculated angles, which aren't hardcoded. 
 
 ## GRACE DAYS
-Grace days used for this assignment: < # >
+Grace days used for this assignment: 0
 
-Grace days remaining: < # >/5
+Grace days remaining: 5/5
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
- < What parts of the project you were not able to complete >
+I was able to complete all parts 
 
 ## REFERENCES:
- < List any outside resources used >
+I used the textbook and the python library
 
 ## MISCELLANEOUS COMMENTS:
- < Anything you would like the grader to know >
+none
