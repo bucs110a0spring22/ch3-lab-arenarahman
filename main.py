@@ -25,8 +25,7 @@ leonardo.forward(random.randrange(1,100))
 michelangelo.goto(-100,20)
 leonardo.goto(-100,-20)
 
-michelangelo.speed(1)
-leonardo.speed(1)
+
 for i in range(10):
   michelangelo.forward(random.randrange(0,10))
   leonardo.forward(random.randrange(0,10))
@@ -35,30 +34,11 @@ leonardo.goto(-100,-20)
 
 # Part B - complete part B here
 michelangelo.down()
-sides = 3
-for i in range(sides):
-  michelangelo.forward(30)
-  michelangelo.left(360/sides)
-michelangelo.clear()
-sides = 4
-for i in range(sides):
-  michelangelo.forward(30)
-  michelangelo.left(360/sides)
-michelangelo.clear()
-sides = 6
-for i in range(sides):
-  michelangelo.forward(30)
-  michelangelo.right(360/sides)
-michelangelo.clear()
-sides = 9
-for i in range(sides):
-  michelangelo.forward(30)
-  michelangelo.right(360/sides)
-michelangelo.clear()
-sides = 12
-for i in range(sides):
-  michelangelo.forward(30)
-  michelangelo.right(360/sides)
-michelangelo.clear()
+for sides in [3, 4, 6, 9, 12]:
+  for i in range(sides):
+    michelangelo.forward(30)
+    michelangelo.left(360/sides)
+  michelangelo.clear()
+
 
 window.exitonclick()
